@@ -1,0 +1,21 @@
+{
+  "name": "waterloobae/cemclf",
+  "description": "A Blade theme package for Laravel.",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "waterloobae\\cemclf\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "waterloobae\\cemclf\\CemcLookAndFeelServiceProvider"
+      ]
+    }
+  },
+  "require": {
+    "php": "^8.2",
+    "illuminate/support": "^10.0 || ^11.0 || ^12.0"
+  }
+}
