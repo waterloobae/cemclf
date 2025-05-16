@@ -1,0 +1,18 @@
+/* @license GNU-GPL-2.0-or-later https://www.drupal.org/licensing/faq */
+.bef-exposed-form .form--inline .form-item {
+    float: none;
+  }
+  .bef-exposed-form .form--inline > .form-item,
+  .bef-exposed-form .form--inline .js-form-wrapper > .form-item {
+    float: left;
+  }
+  .bef-exposed-form .form--inline .bef--secondary {
+    clear: left;
+  }
+  .bef-exposed-form .noUi-vertical {
+    height: 150px;
+  }
+  .paragraph--unpublished {
+    background-color: #fff4f4;
+  }
+  

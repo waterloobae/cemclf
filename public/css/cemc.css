@@ -1,0 +1,162 @@
+@import url("https://unpkg.com/aos@2.3.1/dist/aos.css");
+@import url("css_bnTYASgqbqmIQHMX2E-Fe1S4o3b_FUwsrUH6BBoR0pw.css");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+@import url("css_NVZNkVcKYfzkF4ksljIg3k19sKzuTYMplmNXt_--uDQ.css");
+
+/* big table */
+.bigtable {
+  margin-top: 0px;
+  width: 755px; /* Feb 10, 2010 widened 188px */
+  border: 1px solid #bbbbbb; /* July 8, 2008 - J.P. changed all table borders from #707070 */
+}
+
+.bigtable td {
+  background-color: #ffffff; /* July 4,2016 - KS changing bg colour to #ffffff from  #cee280; for new look and feel*/
+  font-size: 100%;
+  border: 1px solid #bbbbbb;
+  padding: 5px;
+  color: #595959; /* July 4,2016 - KS changing font colour to #505050 from  #363636; for new look and feel*/ /*KS - Changed July 21,2019 from #505050 for Accessibility*/
+}
+
+.bigtable2 {
+  font-size: 92%;
+  margin-top: 0px;
+  width: 755px; /* Feb 10, 2010 widened 188px */
+  border: 1px solid #bbbbbb; /* July 8, 2008 - J.P. changed all table borders from #707070 */
+}
+
+.bigtable2 td {
+  background-color: #ffffff; /* July 4,2016 - KS changing bg colour to #ffffff from  #cee280; for new look and feel*/
+  font-size: 92%;
+  border: 1px solid #bbbbbb;
+  padding: 5px;
+  color: #595959; /* July 4,2016 - KS changing font colour to #505050 from  #363636; for new look and feel*/ /*KS - Changed July 21,2019 from #505050 for Accessibility*/
+}
+
+.outertable {
+  margin-top: 0px;
+  width: 755px;
+  border: 1px solid #bbbbbb;
+}
+
+.outertable td {
+  background-color: #ffffff;
+  font-size: 100%;
+  border: 1px solid #bbbbbb;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: #595959;
+}
+
+.nestedtable {
+  border-style: hidden !important;
+  border-collapse: collapse;
+  border: 1px solid #bbbbbb;
+}
+
+.nestedtable td {
+  border-style: hidden;
+  border-collapse: collapse;
+  border: 1px dotted #bbbbbb;
+  width: 230px !important;
+  height: 22px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  padding-right: 5px !important;
+  padding-left: 5px !important;
+}
+
+/*.bigtable td {
+	background-color: #e9f6bc;
+	font-size: 100%;
+	border: 1px solid #BBBBBB;
+	padding: 5px;
+	color: #363636;
+	}*/
+/* vertical big table */
+/* June 25, 2008 - Added by Terry for use with vertical tables (with column headings) */
+.vbigtable {
+  margin-top: 0px;
+  width: 755px; /* Feb 10, 2010 widened 188px */
+  border: 1px solid #bbbbbb;
+}
+
+.vbigtable td {
+  font-size: 100%;
+  border: 1px solid #bbbbbb;
+  padding: 5px;
+  color: #595959; /*KS - Changed July 21,2019 from #506060 for Accessibility*/
+}
+/* small table */
+/* June 24, 2008 - Added by JP for use on pages with right-column content. */
+.smalltable {
+  margin-top: 0px;
+  width: 581px; /* Feb 10, 2010 widened 188px */
+  border: 1px solid #bbbbbb;
+}
+
+.smalltable td {
+  background-color: #ffffff; /*changing from #e9f6bc new web design*/
+  /*changing from background-color: #e9f2c6;*/
+  font-size: 100%;
+  border: 1px solid #bbbbbb;
+  padding: 5px;
+  color: #595959; /*changing from #363636 new web design*/ /*KS - Changed July 21,2019 from #505050 for Accessibility*/
+}
+
+.smallertable {
+  margin-top: 0px;
+  width: 560px; /* Feb 10, 2010 widened 188px */
+  border: 1px solid #bbbbbb;
+}
+
+.smallertable td {
+  background-color: #ffffff; /*changing from #e9f6bc new web design*/
+  /*changing from background-color: #e9f2c6;*/
+  font-size: 100%;
+  border: 1px solid #bbbbbb;
+  padding: 5px;
+  color: #595959; /*changing from #363636 new web design*/ /*KS - Changed July 21,2019 from #505050 for Accessibility*/
+}
+/* vertical small table */
+/* June 25, 2008 - Added by Terry for use with vertical tables (with column headings) */
+.vsmalltable {
+  margin-top: 0px;
+  width: 581px; /* Feb 10, 2010 widened 188px */
+  border: 1px solid #bbbbbb; /*changing from #BBBBBB new web design*/
+}
+
+.vsmalltable td {
+  font-size: 100%;
+  border: 1px solid #bbbbbb; /*changing from #BBBBBB new web design*/
+  padding: 5px;
+  color: #595959; /*changing from #363636 new web design*/ /*KS - Changed July 21,2019 from #505050 for Accessibility*/
+}
+
+/* Used to highlight top row of a horizontal table */
+.greenbar td {
+  background-color: #e9f6bc; /*changing from #cee280 new web design*/
+  font-weight: bold;
+}
+/* Used for vertical tables */
+/* For example:	<table cellspacing="0" class="vsmalltable" summary="Gauss Grade 7 Archive">
+                  <colgroup>
+                  <col class="darkgreen" />
+                  <col class="lightgreen" />
+				  ...
+                  </colgroup>
+                  <tr>
+                    <td><strong>Contests</strong></td> ...
+
+*/
+.darkgreen {
+  background-color: #e9f6bc; /*changing from #cee280 new web design*/
+}
+.lightgreen {
+  background-color: #ffffff; /*changing from #e9f6bc new web design*/
+}
