@@ -12,10 +12,9 @@
             <a class="navbar-brand" href="https://cemc.uwaterloo.ca/">
                 <img src="{{ asset('vendor/cemclf/images/cemc_logo.svg') }}" alt="CEMC Logo" />
             </a>
-            @auth
-                @include('layouts.navigation')
-            @endauth
-            {{ $slot }}
+            @if (!empty($nav))
+                <x-cemclf::cemc-nav :nav="$nav" />
+            @endif
         </nav>
     </div>
 </header> 

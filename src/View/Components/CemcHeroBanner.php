@@ -7,9 +7,9 @@ use Illuminate\View\Component;
 class CemcHeroBanner extends Component
 {
     public string $h1;
-    public string $image;
+    public ?string $image;
 
-    public function __construct(string $h1, string $image)
+    public function __construct(string $h1, ?string $image = null)
     {
         $this->h1 = $h1;
         $this->image = $image;
@@ -17,6 +17,6 @@ class CemcHeroBanner extends Component
 
     public function render()
     {
-        return view('CEMCLF::components.cemc-hero-banner');
+        return view('cemclf::components.cemc-hero-banner');
     }
 }

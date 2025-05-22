@@ -8,6 +8,6 @@ class CemcHead extends Component
 {
     public function render()
     {
-        return view('CEMCLF::components.cemc-head');
+        return view('cemclf::components.cemc-head');
     }
 }

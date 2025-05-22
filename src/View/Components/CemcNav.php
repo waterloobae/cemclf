@@ -1,10 +1,9 @@
 <?php
-
 namespace Waterloobae\Cemclf\View\Components;
 
 use Illuminate\View\Component;
 
-class CemcHeader extends Component
+class CemcNav extends Component
 {
     public array $nav;
 
@@ -15,6 +14,6 @@ class CemcHeader extends Component
 
     public function render()
     {
-        return view('cemclf::components.cemc-header');
+        return view('cemclf::components.cemc-nav');
     }
 }

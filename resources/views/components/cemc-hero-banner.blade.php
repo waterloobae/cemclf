@@ -10,6 +10,7 @@
                 </div>
             </div>
         </div>
+        @if ($image)
         <div class="hero-banner-images-container">
             <div class="hero-banner-images single-image">
                 <svg class="mosaic-top" width="127" height="113" viewBox="0 0 127 113" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -36,7 +37,8 @@
                         <div>
                             <div>
                                 <div class="visually-hidden">Image</div>
-                                <div class="field_media_image"> <img src="{{ $image }}" width="480" height="320" alt="Person using a computer" loading="lazy" class="img-fluid">
+                                <div class="field_media_image"> 
+                                    <img src="{{ $image }}" width="480" height="320" alt="Decorative Hero Image" loading="lazy" class="img-fluid">
                                 </div>
                             </div>
                         </div>
@@ -62,4 +64,5 @@
                 </svg>
             </div>
         </div>
+        @endif
     </div>

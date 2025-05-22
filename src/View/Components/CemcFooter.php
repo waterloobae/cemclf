@@ -8,6 +8,6 @@ class CemcFooter extends Component
 {
     public function render()
     {
-        return view('CEMCLF::components.cemc-footer');
+        return view('cemclf::components.cemc-footer');
     }
 }
