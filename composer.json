@@ -17,7 +17,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "waterloobae\\cemclf\\CemcLookAndFeelServiceProvider"
+        "Waterloobae\\Cemclf\\CemcLookAndFeelServiceProvider"
       ]
     }
   },
