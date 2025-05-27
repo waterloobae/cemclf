@@ -27,10 +27,10 @@
   },
   "scripts": {
     "post-install-cmd": [
-      "@php artisan vendor:publish --tag=cemclf-views --force"
+      "@php artisan vendor:publish --tag=cemclf --force"
     ],
     "post-update-cmd": [
-      "@php artisan vendor:publish --tag=cemclf-views --force"
+      "@php artisan vendor:publish --tag=cemclf --force"
     ]
   }
 }
