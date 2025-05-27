@@ -1,7 +1,14 @@
 {
   "name": "waterloobae/cemclf",
-  "description": "A Blade theme package for Laravel.",
-  "type": "library",
+  "description": "CEMCLF - Custom Blade theme package for Laravel",
+  "keywords": ["laravel", "blade", "theme", "cemc"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Terry Bae",
+      "email": "terry.bae@gmail.com"
+    }
+  ],
   "autoload": {
     "psr-4": {
       "waterloobae\\Cemclf\\": "src/"
@@ -17,5 +24,13 @@
   "require": {
     "php": "^8.2",
     "illuminate/support": "^10.0 || ^11.0 || ^12.0"
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "@php artisan vendor:publish --tag=cemclf-views --force"
+    ],
+    "post-update-cmd": [
+      "@php artisan vendor:publish --tag=cemclf-views --force"
+    ]
   }
 }
