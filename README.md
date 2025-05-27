@@ -14,7 +14,7 @@ First, add following codes into your project composer.json.
   "cemc-development-team/lookandfeel": "dev-main"
 }
 ```
-Then, create auth.json for credentials with following codes
+Then, edit ~/.composer/auth.json for credentials to include following codes
 ```json
 {
   "gitlab-token": {
