@@ -11,7 +11,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "waterloobae\\Cemclf\\": "src/"
+      "Waterloobae\\Cemclf\\": "src/"
     }
   },
   "extra": {
