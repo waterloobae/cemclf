@@ -28,6 +28,12 @@ composer update
 ```
 Your project should be ready to use cemclf package for now.
 
+It is possible CSS, JS and image asset files are not published automaticall. If not, run either of command below.
+```base
+php artisan vendor:publish --tag=cemclf --force
+sail artisan vendor:publish --tag=cemclf --force
+```
+
 # How to Use
 
 ```php
