@@ -1,21 +1,10 @@
 # How to Install
-Since this package repository is private, it uses Composer's vcs repository locally and does not use Packagit.
 
-First, add following codes into your project composer.json.
 
-```json
-"repositories": [
-  {
-    "type": "vcs",
-    "url": "https://git.uwaterloo.ca/cemc-development-team/LookAndFeel.git"
-  }
-],
-"require": {
-  "cemc-development-team/lookandfeel": "dev-main"
-}
+```bash
+composer require waterloobae/cemclf
 ```
-Then, edit ~/.composer/auth.json for credentials to include following codes or create auth.json in the package root directory
-After those two steps above are done, run the command as below.
+To make sure you can run composer update for Comporser packages.
 ```bash
 composer update
 ```
