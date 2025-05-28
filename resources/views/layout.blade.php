@@ -4,6 +4,7 @@
 	<x-cemclf::cemc-head>
 		@yield('title', 'CEMC website')
 	</x-cemclf::cemc-head>
+        @yield('inside-head-tag')
 </head>
 
 <body class="tex2jax_ignore" data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">

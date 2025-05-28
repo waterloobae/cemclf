@@ -27,10 +27,12 @@
   },
   "scripts": {
     "post-install-cmd": [
-      "@php artisan vendor:publish --tag=cemclf --force"
+      "@php artisan vendor:publish --tag=cemclf --force",
+      "@sail artisan vendor:publish --tag=cemclf --force"
     ],
     "post-update-cmd": [
-      "@php artisan vendor:publish --tag=cemclf --force"
+      "@php artisan vendor:publish --tag=cemclf --force",
+      "@sail artisan vendor:publish --tag=cemclf --force"
     ]
   }
 }

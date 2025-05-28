@@ -34,6 +34,9 @@ image section is optional.
 {{-- resources/views/welcome.blade.php --}}
 @extends('cemclf::layout')
 @section('title', 'Welcome to CEMC')  
+@section('inside-head-tag')
+	<meta name="description" content="Look and Feel template test." />
+@endsection
 @section('h1', 'Problem Set Generator')
 @section('image', asset('vendor/cemclf/images/guy_in_computer.jpeg') . '?itok=lHrMwHeX')
 
