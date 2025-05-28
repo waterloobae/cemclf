@@ -15,13 +15,6 @@ First, add following codes into your project composer.json.
 }
 ```
 Then, edit ~/.composer/auth.json for credentials to include following codes or create auth.json in the package root directory
-```json
-{
-    "gitlab-token": {
-        "git.uwaterloo.ca": "glpat-wqUxTpEP-kqyfQ6tbfBD"
-    }
-}
-```
 After those two steps above are done, run the command as below.
 ```bash
 composer update
