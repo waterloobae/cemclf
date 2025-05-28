@@ -62,3 +62,19 @@ Route::get('/', function () {
     ]);
 });
 ```
+or
+```php
+$nav = [
+    ['label' => 'Home', 'url' => '/'],
+    ['label' => 'About', 'url' => '/about'],
+    ['label' => 'Services', 'submenu' => [
+        ['label' => 'Web Dev', 'url' => '/services/web'],
+        ['label' => 'SEO', 'url' => '/services/seo'],
+    ]],
+];
+
+Route::get('/', function () use ($nav) {
+    return view('cemc', ['nav' => $nav]);
+});
+```
+
