@@ -36,6 +36,7 @@ sail artisan vendor:publish --tag=cemclf --force
 
 # How to Use
 
+image section is optional.
 ```php
 {{-- resources/views/welcome.blade.php --}}
 @extends('cemclf::layout')
@@ -52,7 +53,7 @@ sail artisan vendor:publish --tag=cemclf --force
 
 @endsection
 ```
-In /routes/web.php, you can add routes as below.
+In /routes/web.php, you can add routes as below. $nav is optional. Without $nav, the page just won't display navigation bar.
 ```php
 Route::get('/', function () {
     // return view('welcome');
