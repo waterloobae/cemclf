@@ -46,7 +46,7 @@ Your project should be ready to use cemclf package for now.
 
 @endsection
 ```
-
+In /routes/web.php, you can add routes as below.
 ```php
 Route::get('/', function () {
     // return view('welcome');
