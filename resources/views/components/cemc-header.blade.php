@@ -10,7 +10,7 @@
     <div id="header-content" class="container-fluid container-xxl">
         <nav class="navbar">
             <a class="navbar-brand" href="https://cemc.uwaterloo.ca/">
-                <img src="{{ asset('vendor/cemclf/images/cemc_logo.svg') }}" alt="CEMC Logo" />
+                <img src="{{ asset('vendor/cemclf/images/CEMC-logo-BW.png') }}" alt="CEMC Logo" />
             </a>
             @if (!empty($nav))
                 <x-cemclf::cemc-nav :nav="$nav" />
