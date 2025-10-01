@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+		@stack('right-after-opening-head-tag')
 	<x-cemclf::cemc-head>
 		@yield('title', 'CEMC website')
 	</x-cemclf::cemc-head>
