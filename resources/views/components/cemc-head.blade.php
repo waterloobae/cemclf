@@ -1,7 +1,6 @@
 <title>{{ $slot }}</title>
-    <link rel="stylesheet" href="{{ asset('vendor/cemclf/css/drupal1.css') }}">    
-    <link rel="stylesheet" href="{{ asset('vendor/cemclf/css/drupal2.css') }}">    
-    <link rel="stylesheet" href="{{ asset('vendor/cemclf/css/drupal3.css') }}">        
+    <link rel="stylesheet" href="{{ asset('vendor/cemclf/css/drupal.css') }}">    
+    <link rel="stylesheet" href="{{ asset('vendor/cemclf/css/bootstrap5.3.3.css') }}">        
     <link rel="stylesheet" href="{{ asset('vendor/cemclf/css/cemc.css') }}">
 <!--[if lt IE 8]
 <style type="text/css">

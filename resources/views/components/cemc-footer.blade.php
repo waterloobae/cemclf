@@ -6,7 +6,7 @@
 					<div class="body">
 						<div class="tex2jax_process">
 							<div class="contextual-region" id="block-cemc-footerlogoandtext">
-								<div class="field_logo"><img class="img-fluid" src="{{ asset('/vendor/cemclf/images/97c4d5e57fdc7fdbf36646ca7550fa70.png') }}?itok=TS3fjtJp" width="480" height="47" alt="University Logo" loading="lazy"></div>
+								<div class="field_logo"><img class="img-fluid" src="{{ asset('/vendor/cemclf/images/UW-logo.png') }}?itok=TS3fjtJp" width="480" height="47" alt="University Logo" loading="lazy"></div>
 								<div class="field_footer_legend mt-4">
 									<p>The University of Waterloo acknowledges that much of our work takes place on the traditional territory of the Neutral, Anishinaabeg, and Haudenosaunee peoples. Our main campus is situated on the Haldimand Tract, the land granted to the Six Nations that includes six miles on each side of the Grand River. Our active work toward reconciliation takes place across our campuses through research, learning, teaching, and community building, and is co-ordinated within the <a href="https://uwaterloo.ca/indigenous">Office of Indigenous Relations</a>.</p>
 								</div>
